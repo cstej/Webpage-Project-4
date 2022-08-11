@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.container {
+  top: 2%;
+  width: 1140px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* --- Navbar --- */
+
+.navbar-container {
+  position: relative;
+  height: 70px;
+}
+.logo {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.list {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+li {
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+.button-group {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.button-group .nav-button {
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(218, 74, 218);
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.active{
+    color: rgb(218, 74, 218);
+}
+
+/* --- Banner --- */
+
+.banner-container {
+  display: flex;
+  margin-top: 2vw;
+  justify-content: space-between;
+  position: relative;
+}
+
+.banner-container .right{
+    width: 40%;
+}
+
+.heading-text {
+  font-size: 50px;
+}
+.heading-text span {
+  color: rgb(218, 74, 218);
+}
+.description {
+  max-width: 450px;
+  font-size: 16px;
+}
+.illustration img {
+    position: absolute;
+    top: 0;
+    right: -50px;
+  object-fit: cover;
+  width: 55%;
+  z-index: -1;
+}
+.nav-button.btn {
+  margin-top: 30px;
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(218, 74, 218);
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+}
